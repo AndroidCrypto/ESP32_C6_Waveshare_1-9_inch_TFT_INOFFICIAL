@@ -37,8 +37,8 @@ QMI8658 IMU Sensor (I2C):
 I2C-SDA      : GPIO 18
 I2C-SCL      : GPIO  8
 I2C-ADDR     : 0x6B
-IMU-INT1     : GPIO 1
-IMU-INT2     : GPIO 2
+IMU-INT1     : GPIO  1
+IMU-INT2     : GPIO  2
 
 TCA9554 GPIO Extender (I2C):
 I2C-SDA      : GPIO 18
