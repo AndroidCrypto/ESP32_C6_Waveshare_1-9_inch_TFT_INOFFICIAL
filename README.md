@@ -8,3 +8,4 @@ This repository accompanies the article "**A detailed look at the Waveshare ESP3
 
 In the **[Documentation](./Documentation)**" folder, you will find files and descriptions taken from the [original repository](https://github.com/waveshareteam/ESP32-C6-LCD-1.9) or the [manufacturer's shop page](https://www.waveshare.com/esp32-c6-lcd-1.9.htm) and provided here as copies. **Naturally, all rights remain with the manufacturer.**
 
+![Image 2](./images/esp32_c6_waveshare_lcd_1_9_pinout_700w.png)
