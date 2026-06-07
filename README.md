@@ -58,6 +58,28 @@ USB D+       : GPIO 13
 USB D-       : GPIO 12
 ````
 
+## Sketches
+
+To drive the display, I use three graphics libraries: **Adafruit ST7735|ST7789** ("Ada"), **LovyanGFX** ("Lov"), and **TFT_eSPI** ("Tft", modified version). I have written examples for all three libraries, identifiable by these abbreviations.
+
+### Display Information
+Esp32_C6_WS_1_9_ST7789_xxx_DisplayInfo_v01: Ada | Lov | Tft folder
+
+### Touch Surface
+Esp32_C6_WS_1_9_ST7789_Tft_Touch_v01: Tft (only) folder
+
+### Micro SD-Card Reader
+Esp32_C6_WS_1_9_ST7789_xxx_SD_BMP_JPG_Touch_v01: Ada | Lov | Tft folder
+
+### QMI8656 IMU
+xxx
+
+### TCA9554 GPIO Extender
+xxx
+
+### Battery Voltage Measurement
+Esp32_C6_WS_1_9_Ada_BatteryMeasurement_v01: Ada (only) folder
+
 
 ## Development Environment (Arduino)
 ````plaintext
