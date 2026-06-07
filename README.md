@@ -6,5 +6,5 @@ You can find the **manufacturer's official repository** via this link: https://g
 
 This repository accompanies the article "**A detailed look at the Waveshare ESP32-C6 1.9-inch ST7789 TFT display with touch interface Development Board**" published here: <soon>
 
-In the "Documentation" folder, you will find files and descriptions taken from the [original repository](https://github.com/waveshareteam/ESP32-C6-LCD-1.9) or the [manufacturer's shop page](https://www.waveshare.com/esp32-c6-lcd-1.9.htm) and provided here as copies. Naturally, all rights remain with the manufacturer.
+In the "OTA_0 sketch: **[Documentation](./Documentation)** folder" folder, you will find files and descriptions taken from the [original repository](https://github.com/waveshareteam/ESP32-C6-LCD-1.9) or the [manufacturer's shop page](https://www.waveshare.com/esp32-c6-lcd-1.9.htm) and provided here as copies. Naturally, all rights remain with the manufacturer.
 
