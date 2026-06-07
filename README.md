@@ -51,4 +51,9 @@ Boot Button  : GPIO  9
 Battery Voltage measurement:
 ADC          : GPIO  0
 
+Miscellaneous:
+UART 0 TX    : GPIO 16
+UART 0 RX    : GPIO 17
+USB D+       : GPIO 13
+USB D-       : GPIO 12
 ````
