@@ -10,6 +10,16 @@ In the **[Documentation](./Documentation)**" folder, you will find files and des
 
 ![Image 2](./images/esp32_c6_waveshare_lcd_1_9_pinout_700w.png)
 
+## Features of the board
+
+- ESP32-C6 (ESP32-C6FH8) with 8MB Flash and 8MB PSRAM memory
+- 1,9 inch TFT-Display ST7789V2 with 170 x 320 pixel resolution
+- Touch surface CST816
+- Micro TF card slot
+- QMI8658 IME sensor 6-axis includes a 3-axis gyroscope and a 3-axis accelerometer
+- TCA9554 8-channel GPIO expander chip
+- MX1.25 2PIN connector, for 3.7V Lithium battery, supports charging and discharging
+
 ## Complete Pin Assignments of the board
 
 ````plaintext
@@ -72,7 +82,7 @@ Esp32_C6_WS_1_9_ST7789_Tft_Touch_v01: Tft (only) folder
 Esp32_C6_WS_1_9_ST7789_xxx_SD_BMP_JPG_Touch_v01: Ada | Lov | Tft folder
 
 ### QMI8656 IMU
-xxx
+Esp32_C6_WS_1_9_ST7789_Ada_QMI8658_v01: Ada (only) folder
 
 ### TCA9554 GPIO Extender
 xxx
