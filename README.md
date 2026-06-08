@@ -85,7 +85,7 @@ Esp32_C6_WS_1_9_ST7789_xxx_SD_BMP_JPG_Touch_v01: Ada | Lov | Tft folder
 Esp32_C6_WS_1_9_ST7789_Ada_QMI8658_v01: Ada (only) folder
 
 ### TCA9554 GPIO Extender
-xxx
+Esp32_C6_WS_1_9_ST7789_Ada_Touch_XCA9554_v01: Ada (only) folder
 
 ### Battery Voltage Measurement
 Esp32_C6_WS_1_9_Ada_BatteryMeasurement_v01: Ada (only) folder
