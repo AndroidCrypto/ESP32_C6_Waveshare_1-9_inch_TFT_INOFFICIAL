@@ -75,24 +75,24 @@ USB D-       : GPIO 12
 To drive the display, I use three graphics libraries: **Adafruit ST7735|ST7789** ("Ada"), **LovyanGFX** ("Lov"), and **TFT_eSPI** ("Tft", modified version). I have written examples for all three libraries, identifiable by these abbreviations.
 
 ### Display Information
-Esp32_C6_WS_1_9_ST7789_xxx_DisplayInfo_v01: Ada | Lov | Tft folder
+Esp32_C6_WS_1_9_ST7789_xxx_DisplayInfo_v01: **[Ada](./Esp32_C6_WS_1_9_ST7789_Ada_DisplayInfo_v01)** | **[Lov](./Esp32_C6_WS_1_9_ST7789_Lov_DisplayInfo_v01)** | **[Tft](./Esp32_C6_WS_1_9_ST7789_Tft_DisplayInfo_v01)** folder
 
 ### Touch Surface
-Esp32_C6_WS_1_9_ST7789_Tft_Touch_v01: Tft (only) folder
+Esp32_C6_WS_1_9_ST7789_Tft_Touch_v01: **[Tft](./Esp32_C6_WS_1_9_ST7789_Tft_Touch_v01)** (only) folder
 
 ### Micro SD-Card Reader
-Esp32_C6_WS_1_9_ST7789_xxx_SD_BMP_JPG_Touch_v01: Ada | Lov | Tft folder
+Esp32_C6_WS_1_9_ST7789_xxx_SD_BMP_JPG_Touch_v01: **[Ada](./Esp32_C6_WS_1_9_ST7789_Ada_SD_BMP_JPG_Touch_v01)** | **[Lov](./Esp32_C6_WS_1_9_ST7789_Lov_SD_BMP_JPG_Touch_v01)** | **[Tft](./Esp32_C6_WS_1_9_ST7789_Tft_SD_BMP_JPG_Touch_v01)** folder
 
-Esp32_C6_WS_1_9_ST7789_xxx_SD_BMP_JPG_Touch_Images: 4 sample images in the folder
+Esp32_C6_WS_1_9_ST7789_xxx_SD_BMP_JPG_Touch_Images: **[4 sample images](./Esp32_C6_WS_1_9_ST7789_xxx_SD_BMP_JPG_Touch_Images)** in the folder
 
 ### QMI8656 IMU
-Esp32_C6_WS_1_9_ST7789_Ada_QMI8658_v01: Ada (only) folder
+Esp32_C6_WS_1_9_ST7789_Ada_QMI8658_v01: **[Ada](./Esp32_C6_WS_1_9_ST7789_Ada_QMI8658_v01)** (only) folder
 
 ### TCA9554 GPIO Extender
-Esp32_C6_WS_1_9_ST7789_Ada_Touch_XCA9554_v01: Ada (only) folder
+Esp32_C6_WS_1_9_ST7789_Ada_Touch_XCA9554_v01: **[Ada](./Esp32_C6_WS_1_9_ST7789_Ada_Touch_XCA9554_v01)** (only) folder
 
 ### Battery Voltage Measurement
-Esp32_C6_WS_1_9_Ada_BatteryMeasurement_v01: Ada (only) folder
+Esp32_C6_WS_1_9_Ada_BatteryMeasurement_v01: **[Ada](./Esp32_C6_WS_1_9_Ada_BatteryMeasurement_v01)** (only) folder
 
 ## Download Links und Versions of the software and libraries
 
