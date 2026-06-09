@@ -2,6 +2,8 @@
 
 This is an **unofficial repository** for the **Waveshare ESP32-C6 development board with a 1.9-inch TFT display and a resolution of 170 x 320 pixels**. It contains example programs for all the board's components for the **Arduino IDE**. The board is available in two versions: **without a touch interface** (but with an RGB LED) or **with a touch interface** and an external antenna connector. My examples refer entirely to the board with the touch surface.
 
+![Image 3](./images/esp32_c6_waveshare_lcd_1_9_device_info_600w.png)
+
 You can find the **manufacturer's official repository** via this link: https://github.com/waveshareteam/ESP32-C6-LCD-1.9
 
 This repository accompanies the article "**A detailed look at the Waveshare ESP32-C6 1.9-inch ST7789 TFT display with touch interface Development Board**" published here: <soon>
@@ -108,6 +110,10 @@ Esp32_C6_WS_1_9_Ada_BatteryMeasurement_v01: Ada (only) folder
 - Adafruit xCA9554 1.0.0: https://github.com/adafruit/Adafruit_XCA9554
 - Waveshare Manufacturers shop-page: https://www.waveshare.com/esp32-c6-lcd-1.9.htm
 - Waveshare  Manufacturers GitHub Repository: https://github.com/waveshareteam/ESP32-C6-LCD-1.9
+
+![Image 2](./images/esp32_c6_waveshare_lcd_1_9_touch_extender_500w.png)
+
+![Image 2](./images/esp32_c6_waveshare_lcd_1_9_battery_500h.png)
 
 ## Development Environment (Arduino)
 ````plaintext
