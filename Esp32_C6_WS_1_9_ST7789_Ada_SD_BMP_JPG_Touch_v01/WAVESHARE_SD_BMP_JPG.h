@@ -1,0 +1,78 @@
+
+#include <SPI.h>
+
+#include <SD.h>
+// Pin for SD Card
+#define SD_CS 20  // Chip Select for SD Card Reader
+
+
+#include <JPEGDEC.h> // https://github.com/bitbank2/JPEGDEC
+JPEGDEC jpeg;
+File jpgFile;
+
+bool initSdCard() {
+  if (!SD.begin(SD_CS)) {
+    Serial.println("Error: SD-Initialization failed!");
+    return false;
+  } else {
+    Serial.println("SD-Initialization success!");
+    return true;
+  }
+}
+
+// BMP
+void drawBmp(const char *filename, int16_t x, int16_t y) {
+  File bmpFile = SD.open(filename);
+  if (!bmpFile) return;
+
+  uint32_t dataOffset;
+  bmpFile.seek(10);
+  bmpFile.read((uint8_t *)&dataOffset, 4);
+
+  int32_t w, h;
+  bmpFile.seek(18);
+  bmpFile.read((uint8_t *)&w, 4);
+  bmpFile.read((uint8_t *)&h, 4);
+
+  int rowSize = (w * 3 + 3) & ~3;
+  int padding = rowSize - (w * 3);
+
+  bmpFile.seek(dataOffset);
+
+  for (int row = h - 1; row >= 0; row--) {
+    for (int col = 0; col < w; col++) {
+      uint8_t b = bmpFile.read();
+      uint8_t g = bmpFile.read();
+      uint8_t r = bmpFile.read();
+
+      if (col < 170 && row < 320) {
+        tft.drawPixel(x + col, y + row, tft.color565(r, g, b));
+      }
+    }
+    if (padding > 0) bmpFile.seek(bmpFile.position() + padding);
+  }
+  bmpFile.close();
+}
+
+// JPG
+
+// Callbacks for getting access to the SD Card file system
+void *myOpen(const char *filename, int32_t *size) {
+  jpgFile = SD.open(filename);
+  *size = jpgFile.size();
+  return &jpgFile;
+}
+void myClose(void *handle) {
+  jpgFile.close();
+}
+int32_t myRead(JPEGFILE *handle, uint8_t *buffer, int32_t length) {
+  return jpgFile.read(buffer, length);
+}
+int32_t mySeek(JPEGFILE *handle, int32_t position) {
+  return jpgFile.seek(position);
+}
+
+int JPEGDraw(JPEGDRAW *pDraw) {
+  tft.drawRGBBitmap(pDraw->x, pDraw->y, pDraw->pPixels, pDraw->iWidth, pDraw->iHeight);
+  return 1;
+}
