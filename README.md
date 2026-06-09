@@ -81,6 +81,8 @@ Esp32_C6_WS_1_9_ST7789_Tft_Touch_v01: Tft (only) folder
 ### Micro SD-Card Reader
 Esp32_C6_WS_1_9_ST7789_xxx_SD_BMP_JPG_Touch_v01: Ada | Lov | Tft folder
 
+Esp32_C6_WS_1_9_ST7789_xxx_SD_BMP_JPG_Touch_Images: 4 sample images in the folder
+
 ### QMI8656 IMU
 Esp32_C6_WS_1_9_ST7789_Ada_QMI8658_v01: Ada (only) folder
 
