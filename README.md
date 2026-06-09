@@ -72,7 +72,7 @@ USB D-       : GPIO 12
 
 ## Sketches
 
-To drive the display, I use three graphics libraries: **Adafruit ST7735|ST7789** ("Ada"), **LovyanGFX** ("Lov"), and **TFT_eSPI** ("Tft", modified version). I have written examples for all three libraries, identifiable by these abbreviations.
+To drive the display, I use three graphics libraries: **Adafruit ST7735|ST7789** ("**Ada**"), **LovyanGFX** ("**Lov**"), and **TFT_eSPI** ("**Tft**", modified version). I have written examples for all three libraries, identifiable by these abbreviations.
 
 ### Display Information
 Esp32_C6_WS_1_9_ST7789_xxx_DisplayInfo_v01: **[Ada](./Esp32_C6_WS_1_9_ST7789_Ada_DisplayInfo_v01)** | **[Lov](./Esp32_C6_WS_1_9_ST7789_Lov_DisplayInfo_v01)** | **[Tft](./Esp32_C6_WS_1_9_ST7789_Tft_DisplayInfo_v01)** folder
@@ -101,7 +101,7 @@ Esp32_C6_WS_1_9_Ada_BatteryMeasurement_v01: **[Ada](./Esp32_C6_WS_1_9_Ada_Batter
 - Adafruit ST7735|ST7789 1.11.0: https://github.com/adafruit/Adafruit-ST7735-Library
 - Adafruit GFX 1.12.6: https://github.com/adafruit/Adafruit-GFX-Library
 - TFT_eSPI 2.5.43: https://github.com/Bodmer/TFT_eSPI (patchted version)
-- TFT_eSPI (modified version) based on 2.5.4: https://github.com/AndroidCrypto/TFT_eSPI
+- TFT_eSPI (modified version) based on 2.5.43: https://github.com/AndroidCrypto/TFT_eSPI
 - LovyanGFX 1.2.21: https://github.com/lovyan03/LovyanGFX
 - CST816 Bibliothek (without version): crerated by myself
 - SD SD-Card Reader 1.3.0: https://github.com/arduino-libraries/SD (ist in esp32 Boards enthalten)
